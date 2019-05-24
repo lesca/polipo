@@ -1,4 +1,4 @@
-FROM arm32v7/alpine
+FROM alpine:latest
 
 RUN set -xe \
     && apk add --no-cache build-base openssl \
